@@ -6,8 +6,8 @@ export default function Works() {
     {
       id:1,
       title:"Web Design",
-      img:"/assest/WebsiteCreator.svg",
-      icon:"/assest/web-icon.jpg",
+      img:"assest/WebsiteCreator.svg",
+      icon:"assest/web-icon.jpg",
       desc:"there was the absolute solution for the problem that happened yesterday.but noone has no idea about it.",
       some:true
     }
@@ -15,15 +15,15 @@ export default function Works() {
     {
       id:2,
       title:"Mobile Developer",
-      img:"/assest/Mobile.svg",
-      icon:"/assest/cell-phone.png",
-      desc:"i'm also a mobile app developer.my favourite language is dart it is the best programming languages i've ever seen. "
+      img:"assest/Mobile.svg",
+      icon:"assest/cell-phone.png",
+      desc:"It is an app development that keeps me working all day and night. People love their girlfriend's app developers love their app UI. People have enemies app developers have bugs. I can't sleep if I found a bug in my code. "
     },
     {
       id:3,
       title:"Branding",
-      img:"/assest/Developer.svg",
-      icon:"/assest/writing.svg",
+      img:"assest/Developer.svg",
+      icon:"assest/writing.svg",
       desc:"something something something something somethi..."
     }
 

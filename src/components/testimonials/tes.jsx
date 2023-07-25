@@ -6,9 +6,9 @@ export default function Tes() {
       id:1,
       title:"CEO of Twitter",
       name:"Elon",
-      img:"/assest/elon.jpg",
+      img:"assest/elon.jpg",
       desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elitDoloremque tenetur, consequatur quos sue",
-      icon:"/assest/twiter.jpg"
+      icon:"assest/twiter.jpg"
     },
     {
       id:2,
