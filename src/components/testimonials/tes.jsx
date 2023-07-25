@@ -7,7 +7,7 @@ export default function Tes() {
       title:"CEO of Twitter",
       name:"Elon",
       img:"assest/elon.jpg",
-      desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elitDoloremque tenetur, consequatur quos sue",
+      desc:"I had the pleasure of working with joseph , and I must say, their expertise and dedication to their craft are truly exceptional. From the moment we started collaborating on my app project, I knew I was in capable hands.",
       icon:"assest/twiter.jpg"
     },
     {
@@ -16,7 +16,7 @@ export default function Tes() {
       name:"Neal",
       img:"assest/neal.jpg",
       icon:"assest/youtube.svg",
-      desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.Doloremque tenetur, consequatur quos sue",
+      desc:"Joseph's technical prowess and creativity shine through in every aspect of the app they developed for me. Their attention to detail, innovative solutions, and user-centric approach have resulted in a seamless and user-friendly application that exceeded my expectations.",
       featured: true
     },
     {
@@ -25,7 +25,7 @@ export default function Tes() {
       name:"Beniyam",
       img:"assest/bini.png",
       icon:"assest/linkedin.svg",
-      desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit.Doloremque tenetur, consequatur quos sue"
+      desc:"My brother,Josi, is not only my sibling but also an exceptional app developer who continues to amaze me with his talent and dedication. From a young age, John showed an innate curiosity for technology, and it was no surprise to see him pursue a career in app development."
     }
   ]
   return (

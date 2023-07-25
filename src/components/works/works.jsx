@@ -8,7 +8,7 @@ export default function Works() {
       title:"Web Design",
       img:"assest/WebsiteCreator.svg",
       icon:"assest/web-icon.jpg",
-      desc:"there was the absolute solution for the problem that happened yesterday.but noone has no idea about it.",
+      desc:" I'm the architects of the digital world, the creators of immersive online experiences, and the problem solvers behind every click and tap.As web developer, i'm not just writers of code; i'm artists crafting seamless user experiences that leave a lasting impression",
       some:true
     }
     ,
@@ -24,13 +24,21 @@ export default function Works() {
       title:"Branding",
       img:"assest/Developer.svg",
       icon:"assest/writing.svg",
-      desc:"something something something something somethi..."
+      desc:"I know many programming languages.For example, c++,python,javaScript,jsx,html,css, and so on."
+    },
+    {
+      id:4,
+      title:"Relationship",
+      img:"assest/relation.svg",
+      icon:"assest/writing.svg",
+      relation:true,
+      desc:"I'm married a beautiful women.Her smile could light up the darkest of days, and her laughter was like music to my soul.She is the shining star in my life, the anchor that keeps me grounded, and the light that guides me through every storm"
     }
 
   ];
   const handleClick=(way)=>{
-    way==="left" ? setCurrerntSlide(currentSlide > 0 ? currentSlide - 1 : 2):
-    setCurrerntSlide(currentSlide < 2 ? currentSlide + 1: 0)
+    way==="left" ? setCurrerntSlide(currentSlide > 0 ? currentSlide - 1 : 3):
+    setCurrerntSlide(currentSlide < 3 ? currentSlide + 1: 0)
   };
   return (
    
@@ -50,8 +58,8 @@ export default function Works() {
                 <p>
                   {d.desc}
                 </p>
-                <span>Projects</span>
-              </div>}
+                <span className={d.relation ? "span wife" : "span"}>{d.relation ? "My lovely wife" : "Projects"}</span>
+              </div>
             </div>
             <div className="right">
               <img src={d.img} alt="svg" />

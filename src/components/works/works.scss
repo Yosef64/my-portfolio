@@ -93,7 +93,8 @@
                             }
                         }
                         h2{
-                            font-size: 25px;
+                            font-size: 18px;
+                            overflow: hidden;
                             @include mobile{
                                 font-size: 10px;
                             }
@@ -101,6 +102,8 @@
                         p{
                             font-size: 13px;
                             font-family: "Ysabeau Infant",sans-serif;
+                            overflow: hidden;
+                            font-weight: 500;
                             @include mobile{
                                 display: none;
                             }
@@ -110,6 +113,11 @@
                             font-weight: 600;
                             text-decoration: underline;
                             cursor: pointer;
+                            overflow: hidden;
+                            &.wife{
+                                text-decoration: none;
+                                font-family: "Ysabeau Infant",sans-serif ;
+                            }
                         }
                     }
                 }
@@ -121,7 +129,7 @@
                     align-items: center;
                     overflow: hidden;
                     img{
-                        width: 400px;
+                        width: 350px;
                         
                         
                         @include mobile{

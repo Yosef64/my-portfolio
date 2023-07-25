@@ -62,8 +62,13 @@ export default function Port() {
           <h3>{d.title}</h3>
         </div>
         ))}
-        
+        <div className="title">
+           I have not not done any projects personally,even application and webdesign.
+        But i hope to do more in the future 
       </div>
+      </div>
+      
     </div>
+
   )
 }
